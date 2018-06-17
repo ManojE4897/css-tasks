@@ -1,0 +1,59 @@
+
+.box1{
+	position: absolute;
+	outline: 2px solid;
+	background-color: orangered;
+	height: 600px;
+	width:600px;
+}
+.box2{
+	position:relative;
+	outline: 2px solid;
+	top: 50px;
+	left: 50px;
+	background-color: orange;
+	height: 500px;
+	width:500px;
+
+}
+.box3{
+	position:absolute;
+	outline: 2px solid;
+	top: 105px;
+	left: 105px;
+	background-color: tomato;
+	height: 400px;
+	width:400px;
+
+}
+
+.box4{
+	position:absolute;
+	outline: 2px solid;
+	top: 155px;
+	left: 155px;
+	background-color:gold;
+	height: 300px;
+	width: 300px;
+
+}
+.box5{
+	position:absolute;
+	outline: 2px solid;
+	top: 230px;
+	left: 230px;
+	background-color: lightsalmon;
+	height: 150px;
+	width: 150px;
+
+}
+
+@media screen and (max-width: 400px){
+    .right {
+        width: 100%;
+    }
+    .left {
+        width: 100%;
+    }
+}
+}

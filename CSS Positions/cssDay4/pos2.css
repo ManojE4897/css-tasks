@@ -1,0 +1,30 @@
+.box1{
+	width:225px;
+	height:225px;
+	
+	background-color:deeppink ;
+}
+.box2{
+	width: 225px;
+	height:225px;
+	
+	
+	background-color:lightseagreen;
+}
+.box3{
+	width:225px;
+	height:225px;
+	background-color:yellowgreen ;
+}
+
+
+
+@media screen and (max-width: 400px){
+    .right {
+        width: 100%;
+    }
+    .left {
+        width: 100%;
+    }
+}
+}

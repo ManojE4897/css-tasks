@@ -1,0 +1,44 @@
+.main{
+	outline: 3px solid;
+}
+.box1{
+	width:220px;
+	height:220px;	
+	position: absolute;
+	background-color:deeppink ;
+}
+.box2{
+	position: relative;
+	width: 220px;
+	height:220px;
+	float:right;	
+	background-color:lightseagreen;
+}
+.box3{
+	width:220px;
+	height:220px;
+	position:relative;
+	background-color:yellowgreen;
+	top:460px;
+}
+
+.box4{
+	width:220px;
+	height:220px;
+	position:relative;
+	top:240px;
+	float: right;
+	background-color: orangered;
+}
+
+
+
+@media screen and (max-width: 400px){
+    .right {
+        width: 100%;
+    }
+    .left {
+        width: 100%;
+    }
+}
+}

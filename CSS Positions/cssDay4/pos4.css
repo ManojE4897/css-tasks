@@ -1,0 +1,26 @@
+.box1{
+	width:80%;
+	height:675px;	
+	position: absolute;
+	background-color:deeppink ;
+}
+.box2{
+	position: relative;
+	width: 20%;
+	height:675px;
+	left:80%;
+	background-color:yellowgreen;
+}
+
+
+
+
+@media screen and (max-width: 400px){
+    .right {
+        width: 100%;
+    }
+    .left {
+        width: 100%;
+    }
+}
+}
