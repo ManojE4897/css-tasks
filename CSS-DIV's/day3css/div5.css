@@ -1,0 +1,39 @@
+html, body {
+	margin:10px;
+	background-color: #F8F8FF;	
+}
+
+	.top{
+		width:100%;
+		outline: 12px solid #C0C0C0;
+		height: 650px;
+	  }
+	  .main{
+	     width: 100%;
+	     outline: 8px solid;
+		 height: 650px;
+		}
+
+		.r1{
+			width:17.5%;
+			height: 650px;
+			float:left;
+			background-color: red;
+			}
+		.w2{
+			width:10%;
+			height: 650px;
+			float:left;
+			background-color:  	#FFF5EE;
+		}
+
+		
+@media screen and (max-width: 400px){
+    .right {
+        width: 100%;
+    }
+    .left {
+        width: 100%;
+    }
+}
+}

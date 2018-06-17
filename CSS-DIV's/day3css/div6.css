@@ -1,0 +1,44 @@
+html, body {
+				margin:10px;
+				background-color: #F8F8FF;
+			}
+
+  .top{
+		width:100%;
+		outline: 12px solid #C0C0C0;
+		height: 650px;
+	  }
+	  .main{
+	     width: 100%;
+	     outline: 7px solid  cyan;
+		 height: 650px;
+		}
+
+
+
+	.left{
+		background-color: red;
+		float:left;
+		width: 20%;
+		height: 650px;
+	}
+
+	.right{
+		background-color: black;
+		float:left;
+		width: 80%;
+		height: 650px;
+	}
+
+   
+
+
+@media screen and (max-width: 400px){
+    .right {
+        width: 100%;
+    }
+    .left {
+        width: 100%;
+    }
+}
+}

@@ -1,0 +1,45 @@
+html, body {
+	margin:0px;
+	height: 100%;
+	background-color: #F8F8FF; 	
+}
+* {
+	font-family:Arial;
+	color: white;
+}
+
+.cont{
+	clear: both;
+	display: inline-block;
+	
+}
+.left{
+	border-color: blue;
+	border-style: dashed;
+	border-width: 4px;
+	float: left;
+	background-color:skyblue;
+    width: 45%;
+   height: 631px;
+    padding: 25px;
+}
+.right{
+	border-color: #228B22;
+	border-style: dashed;
+	border-width: 4px;
+	margin-left: 10px;
+	float: right;
+	background-color: yellowgreen;
+	height: 631px;
+	width: 45%;
+	padding: 25px;
+}
+@media screen and (max-width: 400px){
+    .right {
+        width: 100%;
+    }
+    .left {
+        width: 100%;
+    }
+}
+}

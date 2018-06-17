@@ -1,0 +1,58 @@
+html, body {
+	margin:0px;
+	width:100%;
+}
+
+.main{
+		
+}
+div{
+	font-size: 25px;
+}
+
+.head {
+	height:100px;
+	
+	background-color: red;
+}
+.cont {
+
+	width:100%;
+	clear:both;
+}
+.left {
+	height: 493px;
+	border-right-style: solid;
+	border-right-width:13px;
+	width:19%;
+	background-color: green;
+	float:left;
+	
+}
+.right {
+	height: 493px;
+	width:80%;
+	background-color: blue;
+	
+
+	float:right;
+	
+}
+#clear {
+    clear: both;
+}
+#footer {
+	width: 100%;
+	height: 100px;
+  background-color:#ffcc33;
+  
+}
+@media screen and (max-width: 400px){
+    .right {
+        width: 100%;
+    }
+    .left {
+        width: 100%;
+    }
+}
+}
